@@ -9,13 +9,17 @@ body {
 }
 
 .container {
-    max-width: 90%;
-    max-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
     background-color: white; /* Agregamos fondo blanco al contenedor para que la sombra se note mejor */
+}
+
+.container img {
+    max-width: 95vw; /* Ajusta el ancho máximo al 95% del viewport width */
+    max-height: 95vh; /* Ajusta la altura máxima al 95% del viewport height */
+    object-fit: contain; /* Ajusta la imagen completa sin recortar */
 }
 
 .container img {
