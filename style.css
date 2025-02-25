@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0e0e0; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 90%;
+    max-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+    background-color: white; /* Agregamos fondo blanco al contenedor para que la sombra se note mejor */
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
