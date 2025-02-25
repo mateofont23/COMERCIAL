@@ -5,19 +5,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #e0e0e0; /* Fondo gris claro */
+    background-color: #e0e0e0; /
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
-    background-color: white; /* Agregamos fondo blanco al contenedor para que la sombra se note mejor */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
 .container img {
-    max-width: 95vw; /* Ajusta el ancho máximo al 95% del viewport width */
-    max-height: 95vh; /* Ajusta la altura máxima al 95% del viewport height */
-    object-fit: contain; /* Ajusta la imagen completa sin recortar */
+    max-width: 95vw;
+    max-height: 95vh; 
+    object-fit: contain; 
 }
